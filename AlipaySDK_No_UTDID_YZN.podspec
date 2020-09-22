@@ -28,7 +28,7 @@ AlipaySDK解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.
   s.source           = { :git => 'https://github.com/wolimomomo/AlipaySDK_No_UTDID_YZN.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
    # s.public_header_files = 'Pod/Classes/**/*.h'
    # s.source_files = 'AlipaySDK_No_UTDID_YZN/Classes/**/*.{h,m}'
