@@ -1,0 +1,6 @@
+framework module AlipaySDK_No_UTDID_YZN {
+  umbrella header "AlipaySDK_No_UTDID_YZN-umbrella.h"
+
+  export *
+  module * { export * }
+}

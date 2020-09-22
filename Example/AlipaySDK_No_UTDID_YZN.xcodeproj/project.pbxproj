@@ -227,7 +227,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				735F0DF500FE0696552CE131 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,26 +311,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Example/Pods-AlipaySDK_No_UTDID_YZN_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		735F0DF500FE0696552CE131 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Tests/Pods-AlipaySDK_No_UTDID_YZN_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Tests/Pods-AlipaySDK_No_UTDID_YZN_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E575A4D3A4657593F94D225 /* [CP] Check Pods Manifest.lock */ = {

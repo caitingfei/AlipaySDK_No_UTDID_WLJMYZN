@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AlipaySDK_No_UTDID_YZN'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AlipaySDK_No_UTDID_YZN.'
+  s.version          = '15.7.9'
+  s.summary          = '解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,28 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+AlipaySDK解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.
                        DESC
 
-  s.homepage         = 'https://github.com/Martin/AlipaySDK_No_UTDID_YZN'
+  s.homepage         = 'https://github.com/wolimomomo/AlipaySDK_No_UTDID_YZN'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Martin' => 'leebinxian@foxmail.com' }
-  s.source           = { :git => 'https://github.com/Martin/AlipaySDK_No_UTDID_YZN.git', :tag => s.version.to_s }
+  s.author           = { 'leebbinxian' => 'leebbinxian@foxmail.com' }
+  s.source           = { :git => 'https://github.com/wolimomomo/AlipaySDK_No_UTDID_YZN.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AlipaySDK_No_UTDID_YZN/Classes/**/*'
+   # s.public_header_files = 'Pod/Classes/**/*.h'
+   # s.source_files = 'AlipaySDK_No_UTDID_YZN/Classes/**/*.{h,m}'
+   s.vendored_frameworks = "AlipaySDK_No_UTDID_YZN/Classes/**/*.framework"
+   
+    s.resource_bundles = {
+      'AlipaySDK_No_UTDID_YZN' => ['AlipaySDK_No_UTDID_YZN/Assets/*.bundle']
+    }
   
-  # s.resource_bundles = {
-  #   'AlipaySDK_No_UTDID_YZN' => ['AlipaySDK_No_UTDID_YZN/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.requires_arc = true
+  s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion","WebKit"
+  s.libraries = "z", "c++"
   # s.dependency 'AFNetworking', '~> 2.3'
 end

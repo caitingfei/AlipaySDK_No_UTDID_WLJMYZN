@@ -1,0 +1,22 @@
+{
+  "name": "AlipaySDK_No_UTDID_YZN",
+  "version": "0.1.0",
+  "summary": "A short description of AlipaySDK_No_UTDID_YZN.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Martin/AlipaySDK_No_UTDID_YZN",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Martin": "leebinxian@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Martin/AlipaySDK_No_UTDID_YZN.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AlipaySDK_No_UTDID_YZN/Classes/**/*"
+}
