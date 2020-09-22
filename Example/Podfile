@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AlipaySDK_No_UTDID_YZN_Example' do
+  pod 'AlipaySDK_No_UTDID_YZN', :path => '../'
+
+  target 'AlipaySDK_No_UTDID_YZN_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
