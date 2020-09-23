@@ -24,7 +24,7 @@ AlipaySDK解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.
   s.homepage         = 'https://github.com/wolimomomo/AlipaySDK_No_UTDID_YZN'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'leebbinxian' => 'leebbinxian@foxmail.com' }
+  s.author           = { 'leebinxian' => 'leebbinxian@foxmail.com' }
   s.source           = { :git => 'https://github.com/wolimomomo/AlipaySDK_No_UTDID_YZN.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -37,9 +37,8 @@ AlipaySDK解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.
     s.resource_bundles = {
       'AlipaySDK_No_UTDID_YZN' => ['AlipaySDK_No_UTDID_YZN/Assets/*.bundle']
     }
-  
+    s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
   s.requires_arc = true
   s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion","WebKit"
   s.libraries = "z", "c++"
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

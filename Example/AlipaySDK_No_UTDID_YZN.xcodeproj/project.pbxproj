@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C36ACB251AD6C900463FB0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36ACA251AD6C900463FB0 /* WebKit.framework */; };
+		27C36ACD251AD6D200463FB0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36ACC251AD6D200463FB0 /* CFNetwork.framework */; };
+		27C36ACF251AD6EA00463FB0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36ACE251AD6EA00463FB0 /* SystemConfiguration.framework */; };
+		27C36AD1251AD6FA00463FB0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36AD0251AD6FA00463FB0 /* CoreMotion.framework */; };
+		27C36AD3251AD70700463FB0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36AD2251AD70700463FB0 /* CoreTelephony.framework */; };
+		27C36AD5251AD70E00463FB0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36AD4251AD70E00463FB0 /* CoreText.framework */; };
+		27C36AD9251AD73700463FB0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36AD8251AD73700463FB0 /* libc++.tbd */; };
+		27C36ADD251AD74300463FB0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36ADC251AD74300463FB0 /* libz.tbd */; };
 		36C0F1ECCF2DF26FD1E33796 /* Pods_AlipaySDK_No_UTDID_YZN_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0773494B3720357E76E3E9C5 /* Pods_AlipaySDK_No_UTDID_YZN_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,8 +47,16 @@
 /* Begin PBXFileReference section */
 		0773494B3720357E76E3E9C5 /* Pods_AlipaySDK_No_UTDID_YZN_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlipaySDK_No_UTDID_YZN_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		082FA13BF3E308F4253E60F5 /* Pods-AlipaySDK_No_UTDID_YZN_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipaySDK_No_UTDID_YZN_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Tests/Pods-AlipaySDK_No_UTDID_YZN_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1822AF22251946B9977F3924 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1822AF22251946B9977F3924 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1CEF9DF35985378A31C5E3A5 /* Pods-AlipaySDK_No_UTDID_YZN_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipaySDK_No_UTDID_YZN_Example.release.xcconfig"; path = "Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Example/Pods-AlipaySDK_No_UTDID_YZN_Example.release.xcconfig"; sourceTree = "<group>"; };
+		27C36ACA251AD6C900463FB0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		27C36ACC251AD6D200463FB0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		27C36ACE251AD6EA00463FB0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		27C36AD0251AD6FA00463FB0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		27C36AD2251AD70700463FB0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		27C36AD4251AD70E00463FB0 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		27C36AD8251AD73700463FB0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		27C36ADC251AD74300463FB0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		33550CADB6073B370BF0C054 /* Pods-AlipaySDK_No_UTDID_YZN_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipaySDK_No_UTDID_YZN_Example.debug.xcconfig"; path = "Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Example/Pods-AlipaySDK_No_UTDID_YZN_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AlipaySDK_No_UTDID_YZN_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlipaySDK_No_UTDID_YZN_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +80,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4A6E438C0A46211B9D383F3 /* Pods-AlipaySDK_No_UTDID_YZN_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipaySDK_No_UTDID_YZN_Tests.release.xcconfig"; path = "Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Tests/Pods-AlipaySDK_No_UTDID_YZN_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CCF959B326109691BE8B62B7 /* AlipaySDK_No_UTDID_YZN.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AlipaySDK_No_UTDID_YZN.podspec; path = ../AlipaySDK_No_UTDID_YZN.podspec; sourceTree = "<group>"; };
-		DB0CE59E23CC088BB7CCF294 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CCF959B326109691BE8B62B7 /* AlipaySDK_No_UTDID_YZN.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AlipaySDK_No_UTDID_YZN.podspec; path = ../AlipaySDK_No_UTDID_YZN.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB0CE59E23CC088BB7CCF294 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF485FDD21290B369719A121 /* Pods_AlipaySDK_No_UTDID_YZN_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlipaySDK_No_UTDID_YZN_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,7 +90,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C36ADD251AD74300463FB0 /* libz.tbd in Frameworks */,
+				27C36AD9251AD73700463FB0 /* libc++.tbd in Frameworks */,
+				27C36AD5251AD70E00463FB0 /* CoreText.framework in Frameworks */,
+				27C36AD3251AD70700463FB0 /* CoreTelephony.framework in Frameworks */,
+				27C36AD1251AD6FA00463FB0 /* CoreMotion.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				27C36ACF251AD6EA00463FB0 /* SystemConfiguration.framework in Frameworks */,
+				27C36ACD251AD6D200463FB0 /* CFNetwork.framework in Frameworks */,
+				27C36ACB251AD6C900463FB0 /* WebKit.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				36C0F1ECCF2DF26FD1E33796 /* Pods_AlipaySDK_No_UTDID_YZN_Example.framework in Frameworks */,
@@ -119,6 +143,14 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27C36ADC251AD74300463FB0 /* libz.tbd */,
+				27C36AD8251AD73700463FB0 /* libc++.tbd */,
+				27C36AD4251AD70E00463FB0 /* CoreText.framework */,
+				27C36AD2251AD70700463FB0 /* CoreTelephony.framework */,
+				27C36AD0251AD6FA00463FB0 /* CoreMotion.framework */,
+				27C36ACE251AD6EA00463FB0 /* SystemConfiguration.framework */,
+				27C36ACC251AD6D200463FB0 /* CFNetwork.framework */,
+				27C36ACA251AD6C900463FB0 /* WebKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +225,6 @@
 				082FA13BF3E308F4253E60F5 /* Pods-AlipaySDK_No_UTDID_YZN_Tests.debug.xcconfig */,
 				C4A6E438C0A46211B9D383F3 /* Pods-AlipaySDK_No_UTDID_YZN_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +239,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				3B8C4B21ACF7ACD72D878A8D /* [CP] Embed Pods Frameworks */,
+				63F6D664DEE2CF8BB85C76DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,22 +327,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3B8C4B21ACF7ACD72D878A8D /* [CP] Embed Pods Frameworks */ = {
+		63F6D664DEE2CF8BB85C76DF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Example/Pods-AlipaySDK_No_UTDID_YZN_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AlipaySDK_No_UTDID_YZN/AlipaySDK_No_UTDID_YZN.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Example/Pods-AlipaySDK_No_UTDID_YZN_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AlipaySDK_No_UTDID_YZN/AlipaySDK_No_UTDID_YZN.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlipaySDK_No_UTDID_YZN.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK_No_UTDID_YZN.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Example/Pods-AlipaySDK_No_UTDID_YZN_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK_No_UTDID_YZN_Example/Pods-AlipaySDK_No_UTDID_YZN_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E575A4D3A4657593F94D225 /* [CP] Check Pods Manifest.lock */ = {
@@ -498,6 +530,7 @@
 				GCC_PREFIX_HEADER = "AlipaySDK_No_UTDID_YZN/AlipaySDK_No_UTDID_YZN-Prefix.pch";
 				INFOPLIST_FILE = "AlipaySDK_No_UTDID_YZN/AlipaySDK_No_UTDID_YZN-Info.plist";
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

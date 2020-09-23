@@ -7,6 +7,7 @@
 //
 
 #import "YZNViewController.h"
+#import <AlipaySDK/AlipaySDK.h>
 
 @interface YZNViewController ()
 
@@ -24,6 +25,8 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    [AlipaySDK defaultService].targetWindow;
 }
 
 @end
