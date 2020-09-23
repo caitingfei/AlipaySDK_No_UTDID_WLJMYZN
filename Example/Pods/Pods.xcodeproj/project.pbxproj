@@ -16,7 +16,6 @@
 				45484E7B28BB884248E70C2E01FD167D /* PBXTargetDependency */,
 			);
 			name = AlipaySDK_No_UTDID_YZN;
-			productName = AlipaySDK_No_UTDID_YZN;
 		};
 /* End PBXAggregateTarget section */
 
@@ -56,14 +55,14 @@
 
 /* Begin PBXFileReference section */
 		1457B2275620E9801A9AC42831F83D04 /* Pods-AlipaySDK_No_UTDID_YZN_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlipaySDK_No_UTDID_YZN_Example.modulemap"; sourceTree = "<group>"; };
-		1EE986B4462F730C618EA04BED6F7A25 /* Pods_AlipaySDK_No_UTDID_YZN_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlipaySDK_No_UTDID_YZN_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE986B4462F730C618EA04BED6F7A25 /* Pods_AlipaySDK_No_UTDID_YZN_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlipaySDK_No_UTDID_YZN_Tests.framework; path = "Pods-AlipaySDK_No_UTDID_YZN_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DF3A9F4056C672EBF258A007D8BAF9 /* ResourceBundle-AlipaySDK_No_UTDID_YZN-AlipaySDK_No_UTDID_YZN-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AlipaySDK_No_UTDID_YZN-AlipaySDK_No_UTDID_YZN-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4E0E82D086CB3A80BA0E63A4C22B65AB /* Pods-AlipaySDK_No_UTDID_YZN_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlipaySDK_No_UTDID_YZN_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		58AE2A0DDB0DC9BE64D686DEE93F4171 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		58AE2A0DDB0DC9BE64D686DEE93F4171 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		58C2AF97012AADD53D395C4F1C72379B /* Pods-AlipaySDK_No_UTDID_YZN_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlipaySDK_No_UTDID_YZN_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6152DEC8CA7689BC16E1291802EBB230 /* Pods-AlipaySDK_No_UTDID_YZN_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlipaySDK_No_UTDID_YZN_Example-dummy.m"; sourceTree = "<group>"; };
-		644804307AC770C974215B9918609F74 /* AlipaySDK_No_UTDID_YZN.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlipaySDK_No_UTDID_YZN.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		644804307AC770C974215B9918609F74 /* AlipaySDK_No_UTDID_YZN.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AlipaySDK_No_UTDID_YZN.bundle; path = "AlipaySDK_No_UTDID_YZN-AlipaySDK_No_UTDID_YZN.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D7E2B13F0EFC316EC5B4C0A93FE820 /* Pods-AlipaySDK_No_UTDID_YZN_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlipaySDK_No_UTDID_YZN_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A51D9CD25DBFDF63670C3798860CD64 /* Pods-AlipaySDK_No_UTDID_YZN_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlipaySDK_No_UTDID_YZN_Example-Info.plist"; sourceTree = "<group>"; };
 		6DE13F74B1CD154812086AE52A4C0012 /* Pods-AlipaySDK_No_UTDID_YZN_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlipaySDK_No_UTDID_YZN_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -72,19 +71,19 @@
 		7AAAAB69281744762A585A6B1F70F8D6 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = AlipaySDK_No_UTDID_YZN/Assets/AlipaySDK.bundle; sourceTree = "<group>"; };
 		836349F5E00DBBB40C3FC8DA2665617B /* Pods-AlipaySDK_No_UTDID_YZN_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlipaySDK_No_UTDID_YZN_Tests.modulemap"; sourceTree = "<group>"; };
 		98B28CBF01ABF7ED50731FAB4F0AA7AB /* Pods-AlipaySDK_No_UTDID_YZN_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlipaySDK_No_UTDID_YZN_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D868F9B026F54E228D413F804DD4CF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D868F9B026F54E228D413F804DD4CF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A75D5BB20B2C780839134C9A5458F876 /* AlipaySDK_No_UTDID_YZN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlipaySDK_No_UTDID_YZN.release.xcconfig; sourceTree = "<group>"; };
 		B4253E1E3AF81702D4D84BB89215653B /* Pods-AlipaySDK_No_UTDID_YZN_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlipaySDK_No_UTDID_YZN_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BD687E14C41EED89E72BB2FF28688727 /* Pods-AlipaySDK_No_UTDID_YZN_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlipaySDK_No_UTDID_YZN_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C0DA3C4593CEEC6B6F7931ECA79EDC8B /* Pods-AlipaySDK_No_UTDID_YZN_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlipaySDK_No_UTDID_YZN_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C28C8D735764DF9AE3B45348E6CB5474 /* Pods-AlipaySDK_No_UTDID_YZN_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlipaySDK_No_UTDID_YZN_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6B46A70FFA3EF08045938BD8A419FF3 /* Pods_AlipaySDK_No_UTDID_YZN_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlipaySDK_No_UTDID_YZN_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B46A70FFA3EF08045938BD8A419FF3 /* Pods_AlipaySDK_No_UTDID_YZN_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlipaySDK_No_UTDID_YZN_Example.framework; path = "Pods-AlipaySDK_No_UTDID_YZN_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C76F22DF1B3D8FD0846C65835BC01385 /* AlipaySDK_No_UTDID_YZN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlipaySDK_No_UTDID_YZN.debug.xcconfig; sourceTree = "<group>"; };
 		C95DE7E1320504549C90A5D109AF6C2B /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = AlipaySDK_No_UTDID_YZN/Classes/AlipaySDK.framework; sourceTree = "<group>"; };
 		EA0147297E7427FD1B0FEA098B93CE91 /* Pods-AlipaySDK_No_UTDID_YZN_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlipaySDK_No_UTDID_YZN_Example-umbrella.h"; sourceTree = "<group>"; };
 		EE3B1A7AA315CC897066BDFB329D8113 /* Pods-AlipaySDK_No_UTDID_YZN_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlipaySDK_No_UTDID_YZN_Tests-dummy.m"; sourceTree = "<group>"; };
-		F8126A4A62E4D03D125ACD75C6128EF4 /* AlipaySDK_No_UTDID_YZN.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AlipaySDK_No_UTDID_YZN.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8126A4A62E4D03D125ACD75C6128EF4 /* AlipaySDK_No_UTDID_YZN.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AlipaySDK_No_UTDID_YZN.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -544,7 +543,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -24,6 +24,9 @@
       "AlipaySDK_No_UTDID_YZN/Assets/*.bundle"
     ]
   },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS[sdk=iphonesimulator*]": ""
+  },
   "requires_arc": true,
   "frameworks": [
     "SystemConfiguration",
@@ -38,7 +41,7 @@
     "WebKit"
   ],
   "libraries": [
-    "z.1",
+    "z",
     "c++"
   ]
 }

@@ -7,17 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27C36ACB251AD6C900463FB0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36ACA251AD6C900463FB0 /* WebKit.framework */; };
-		27C36ACD251AD6D200463FB0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36ACC251AD6D200463FB0 /* CFNetwork.framework */; };
-		27C36ACF251AD6EA00463FB0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36ACE251AD6EA00463FB0 /* SystemConfiguration.framework */; };
-		27C36AD1251AD6FA00463FB0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36AD0251AD6FA00463FB0 /* CoreMotion.framework */; };
-		27C36AD3251AD70700463FB0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36AD2251AD70700463FB0 /* CoreTelephony.framework */; };
-		27C36AD5251AD70E00463FB0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36AD4251AD70E00463FB0 /* CoreText.framework */; };
-		27C36AD9251AD73700463FB0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36AD8251AD73700463FB0 /* libc++.tbd */; };
-		27C36ADD251AD74300463FB0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C36ADC251AD74300463FB0 /* libz.tbd */; };
 		36C0F1ECCF2DF26FD1E33796 /* Pods_AlipaySDK_No_UTDID_YZN_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0773494B3720357E76E3E9C5 /* Pods_AlipaySDK_No_UTDID_YZN_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
@@ -90,15 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C36ADD251AD74300463FB0 /* libz.tbd in Frameworks */,
-				27C36AD9251AD73700463FB0 /* libc++.tbd in Frameworks */,
-				27C36AD5251AD70E00463FB0 /* CoreText.framework in Frameworks */,
-				27C36AD3251AD70700463FB0 /* CoreTelephony.framework in Frameworks */,
-				27C36AD1251AD6FA00463FB0 /* CoreMotion.framework in Frameworks */,
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				27C36ACF251AD6EA00463FB0 /* SystemConfiguration.framework in Frameworks */,
-				27C36ACD251AD6D200463FB0 /* CFNetwork.framework in Frameworks */,
-				27C36ACB251AD6C900463FB0 /* WebKit.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				36C0F1ECCF2DF26FD1E33796 /* Pods_AlipaySDK_No_UTDID_YZN_Example.framework in Frameworks */,
