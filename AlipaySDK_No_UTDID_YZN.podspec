@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AlipaySDK_No_UTDID_YZN'
+  s.name             = 'AlipaySDK_No_UTDID_WLJMYZN'
   s.version          = '15.7.9'
   s.summary          = '解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.'
 
@@ -25,7 +25,7 @@ AlipaySDK解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'leebinxian' => 'leebbinxian@foxmail.com' }
-  s.source           = { :git => 'https://github.com/wolimomomo/AlipaySDK_No_UTDID_YZN.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/caitingfei/AlipaySDK_No_UTDID_WLJMYZN', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
